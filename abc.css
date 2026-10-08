@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#baace7;
+    color: #111a35;
+}
+.navbar{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+.logo{
+    font-size: 25px;
+    font-weight: bold;
+}
+.nav-links{
+    display: flex;
+    gap: 60px;
+    list-style: none;
+}
+.nav-links a{
+    text-decoration: none;
+    color: #111a35;
+    font-size: 12px;
+    font-weight: bold;
+}
+.nav-links li{
+    margin-right: 40px;
+}
+.hire-btn{
+    background: #111a35;
+    color: white;
+    border:none ;
+    border-radius:25px ;
+    padding: 12px 22px;
+    cursor: pointer;
+
+}
+.hero-text{
+    width: 90%;
+    margin: 60px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 500px;
+
+}
+
+.hero-text{
+    width: 50%;
+}
+.small-text{
+    font-size: 12px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+.hero h1{
+    font-size: 75px;
+    line-height: 0.95;
+    color: #18285c;
+}
+.description{
+    margin-top: 25px;
+    width: 350px;
+    line-height: 1,6;
+    color: #777;
+}
+.explore-btn{
+    margin-top: 25px;
+    padding: 14px 25px;
+    border: none;
+    border-radius: 25px;
+    background: #536bd8;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.hero-image{
+    width: 45%;
+    position: relative;
+}
+.hero-image img{
+    width: 100%;
+    max-width: 430px;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+}
+.location{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    background: white;
+    padding: 10px 15px;
+    font-size: 12px;
+}
+.stats{
+    width: 90%;
+    margin:80px auto;
+    display: grid;
+    grid-template-columns: repeat(41,fr);
+    text-align: center;
+    border-top: 1px solid #ddd;
+    border-bottom:1px solid #ddd ;
+    padding: 35px 0;
+
+        
+        
+    }
+    .stat{
+        font-size:35px ;
+        color: #536bd8;
+    }
+    .stat p{
+        margin-top: 8px;
+        font-size: 10px;
+        letter-spacing: 1px;
+        color: #777;
+    }
+    .expertise{
+        width: 90%;
+        margin: 100px auto;
+    }
+    .section-title{
+        font-size: 11px;
+        letter-spacing: 3px;
+        color: #536bd8;
+    }
+    .expertise > h2 {
+        font-size: 40px;
+        margin: 10px 0 40px;
+    
+    }
+    .expertise-container{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 20px;
+    }
+    .service-card{
+        padding: 25px;
+        border: 1px solid #e5e5e5
+        border-radius:15px ;
+        min: height 200px;
+    }
+    .service-card h3:first-child{
+        color: #536bd8;
+
+    }
+    .service-card p{
+        margin-top: 15px;
+        color: #777;
+        line-height: 1.5;
+    }
+
+
+
